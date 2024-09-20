@@ -1,0 +1,143 @@
+body {
+   /* margin: 0;*/
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.comeco{
+    /*display: flex;
+    justify-content: flex-start;
+    margin-top: 43px;*/
+    display: flex;
+    justify-content: flex-start;
+    gap: 130px;
+    margin-left: 362px;
+    margin-top: 43px;
+    
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    display: flex;
+    text-decoration: none;
+    color: #22D4FD;
+    font-size: 24px;
+
+}
+
+h1{
+    font-family: "krona-one-regular";
+}
+.about {
+
+    display: flex;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    
+}
+
+.text {
+    width: 615px;
+    height: 482px;
+    flex: 1;
+    margin-left: 357px;
+    
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #ffffff;   
+}
+
+
+
+.text p {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.buttons {
+    display: flex;
+    margin: 30px 0;
+    gap: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    background-color: #00bfff;
+    border-radius: 16px;
+    margin: 0 10px;
+    font-size: 18px;
+    width: 280px;
+    height: 87px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+
+}
+img{
+width: 615px;
+height: 482px;
+top: 278px;
+left: 357px;
+gap: 0px;
+opacity: 0px;
+
+}
+.image {
+   
+}
+
+.image img {
+    width: 466px;
+    /*height: 482px;*/
+    /*border: 2px solid #00bfff;*/
+}
+
+.name-tag {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #00bfff;
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #00bfff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+strong{
+    color:  #00bfff;
+}
